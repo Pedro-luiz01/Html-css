@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+a {
+    background-color: rgb(127, 116, 107);
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;  
+    transform: translateY(-13em);
+    position: fixed;
+}
+
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(to right, #404040, #7B7979, #000000);
+}

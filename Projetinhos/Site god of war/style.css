@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: GODOFWAR;
+    src: url('Fontes/GODOFWAR.TTF');
+}
+    
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #E60003, #8D0001);
+}
+
+header{
+    text-align: center;
+     padding: 10px;
+    background-image: linear-gradient(to left, #E60003, #8D0001, #630003, #C54907, #B22104);
+    font-family: 'GODOFWAR' ;
+}
+
+header > h1{
+    font-size: 5em;
+    color: #BF0000;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.701);
+}
+
+nav{
+    background-image: linear-gradient(to left, #E60003, #8D0001, #630003, #C54907, #B22104);
+    padding: 10px;
+}
+
+nav > a{
+    padding: 15px;
+    color: #ff5900;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    background-color: #630003;
+    padding: 10px;
+    text-decoration: underline;
+    
+}
+
+main{
+    
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    max-width: 1400px;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.god1{
+    padding: 10px;
+    font-size: 2em;
+}
+
+main > div > img{
+    height: 400px;
+    padding: 10px;
+    padding-right: 20px;
+    position: relative;
+    bottom: 60px;
+    
+}
+
+audio{
+    position: relative;
+    top: 470px;
+    right: 8px;
+    padding-top: 10px;
+    
+}
+
+main p{
+    text-indent: 30px;
+    line-height: 30px;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.text1{
+    position: relative;
+    bottom: 55px;
+}
+
+main img{
+    height: 400px;
+    padding: 10px;
+    padding-right: 20px;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color:#8D0001
+}
+

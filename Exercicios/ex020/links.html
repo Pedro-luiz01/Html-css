@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        a{
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        a:visited{
+            color: darkblue;
+        }
+
+        a:hover{
+          text-decoration:underline;
+          color: black;
+        }
+
+        a:active{
+            color: red;
+        }
+
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .canal::after{
+            content: '♳';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a target="_blank" href="https://www.instagram.com/ziulpinhu/">meu canal do youtube</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/@Ziulpinhoshorts" class="canal">meu instagram</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/watch?v=s7L2PVdrb_8">musica</a></li>
+    </ul>
+</body>
+</html>
