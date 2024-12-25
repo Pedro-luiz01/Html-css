@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --fonte-primaria: arial, 'san-serif';
+    --cor-primaria: black;
+    --cor-secundaria: white;
+}
+
+body{
+    background-color: gray;
+    max-width: 800px;
+    min-width: 400px;
+    
+
+}
+
+header h1{
+    font-family: var(--fonte-primaria);
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+h2{
+    padding: 10px;
+    color: var(--cor-secundaria);
+    
+}
+
+.p1{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.1em;
+    color: var(--cor-primaria);
+}
+
+.p2{
+    text-align: left;
+    padding-top: 15px;
+    text-indent: 10px;
+}
+    
